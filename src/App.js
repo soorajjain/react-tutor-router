@@ -7,7 +7,7 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}></Route>
